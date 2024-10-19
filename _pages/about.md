@@ -9,7 +9,7 @@ profile:
   image: IMG_9013.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    NWPU, Xi'an, China
+    Chang Sha/Xi'an, China
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
