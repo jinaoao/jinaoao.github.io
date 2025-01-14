@@ -12,14 +12,14 @@
   number={},
   pages={1-14},
   selected={true},
-  preview={},
+  preview={jin_tnnls_2025.png},
   doi={10.1109/TNNLS.2024.3525264},
   abstract={This work focuses on the safety of learning-based control for unknown nonlinear system, considering the stability of learned dynamics and modeling mismatch between the learned dynamics and the true one. A learning-based scheme imposing the stability constraint is proposed in this work for modeling and stable control of unknown nonlinear system. Specifically, a linear representation of unknown nonlinear dynamics is established using the Koopman theory. Then, a deep learning approach is utilized to approximate embedding functions of Koopman operator for unknown system. For the safe manipulation of proposed scheme in the real-world applications, a stable constraint of learned dynamics and Lipschitz constraint of embedding functions are considered for learning a stable model for prediction and control. Moreover, a robust predictive control scheme is adopted to eliminate the effect of modeling mismatch between the learned dynamics and the true one, such that the stabilization of unknown nonlinear system is achieved. Finally, the effectiveness of proposed scheme is demonstrated on the tethered space robot (TSR) with unknown nonlinear dynamics.}
   }
 
 @misc{jin2024neuralpredictorflightcontrol,
   bibtex_show={true},
-  abbr={preprint},
+  abbr={Preprint},
   title={Neural Predictor for Flight Control with Payload}, 
   author={Ao, Jin and Chenhao, Li and Qinyi, Wang and Ya, Liu and Panfeng, Huang and Fan, Zhang},
   year={2024},
@@ -27,6 +27,7 @@
   doi={10.48550/arXiv.2410.15946},
   arxiv={2410.15946}, 
   selected={true},
+  preview={jin_arxiv_2024.png},
   code={https://github.com/NPU-RCIR/Neural-Predictor},
   abstract={Aerial robotics for transporting suspended payloads as the form of freely-floating manipulator are growing great interest in recent years. However, the prior information of the payload, such as the mass, is always hard to obtain accurately in practice. The force/torque caused by payload and residual dynamics will introduce unmodeled perturbations to the system, which negatively affects the closed-loop performance. Different from estimation-like methods, this paper proposes Neural Predictor, a learning-based approach to model force/torque caused by payload and residual dynamics as a dynamical system. It results a hybrid model including both the first-principles dynamics and the learned dynamics. This hybrid model is then integrated into a MPC framework to improve closed-loop performance. Effectiveness of proposed framework is verified extensively in both numerical simulations and real-world flight experiments. The results indicate that our approach can capture force/torque caused by payload and residual dynamics accurately, respond quickly to the changes of them and improve the closed-loop performance significantly. In particular, Neural Predictor outperforms a state-of-the-art learning-based estimator and has reduced the force and torque estimation errors by up to 66.15% and 33.33% while using less samples. }
 }
@@ -41,7 +42,7 @@
   volume = {},
   year = {2024},
   doi={10.1109/TAES.2024.3480893},
-  preview={},
+  preview={jin_taes_2024.png},
   selected={true},
   abstract={This work focuses on the problem of collision avoidance with space debris for large-scale deployment of tethered space robot. To this end, a general scheme that contains offline training and online execution is presented for safe deployment of tethered space robot. Specifically, inspired by contraction theory, a feedback controller is learned from data to guarantee the superior tracking performance in the offline phase. Furthermore, the “tube” where state of tethered space robot would stay within is optimized simultaneously. In the online execution phase, when the space debris are detected, the motion planner generates nominal trajectory by considering safety constraints. Then, in the presence of disturbances, the feedback controller learned offline tracks this nominal trajectory safely without collisions. The proposed scheme allows for the comprehensive utilization of prior knowledge for designing the tracking controller in the offline phase, thereby enhancing the online tracking performance. Finally, the numerical simulations demonstrate effectiveness of the proposed framework.}
 }
@@ -56,7 +57,7 @@
   volume = {74},
   year = {2024},
   doi={10.1016/j.asr.2024.04.032},
-  preview={},
+  preview={jin_asr_2024.png},
   selected={true},
   abstract={To avoid complex constraints of the traditional nonlinear method for tethered space robot (TSR) deployment, a data-driven optimal control framework with an improve deep learning based Koopman operator is proposed in this work. In consideration of nonlinearity of tethered space robot dynamics, its finite dimensional global linear representation called lifted linear system is derived with the Koopman operator theory. A deep learning scheme is adopted to find the embedding functions associate with Koopman operator. And an auxiliary neural network is developed to encode the nonlinear control term of finite dimensional lifted system. Then a controllability constraint is considered for learning a controllable lifted linear system. Besides two loss functions that relate to reconstruction and prediction ability of lifted linear system are designed for training the deep neural network. With the learned lifted linear dynamics, Linear Quadratic Regulator (LQR) is applied to derive the optimal control policy for the tethered space robot deployment. Finally, simulation results verify the effectiveness of proposed framework and show that it could deploy tethered space robot more quickly with less swing of in-plane angle.}
 }
